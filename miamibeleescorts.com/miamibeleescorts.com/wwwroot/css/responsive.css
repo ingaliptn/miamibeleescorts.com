@@ -1,0 +1,157 @@
+@media (max-width: 1400px) {
+	.choose-hostess-treatment .row,
+	.home-content .row { margin-left: 0; margin-right: 0; }
+	.call-to-action,
+	.schedule .container { padding-left: 15px; padding-right: 15px; }
+	.header-nav ul li ul { right: 0; }
+}
+@media (max-width: 1300px) {
+	h1 { font-size: 40px;}
+	h2 { font-size: 22px;}
+	.header-nav ul li a { padding-left: 10px; padding-right: 10px; }
+	.heading { font-size: 45px; padding: 40px 0;}
+	.header-nav { font-size: inherit;}
+	.banner-caption .title { font-size: 5em;}
+	.choose-hostess-treatment { padding-bottom: 30px;}
+	.schedule,
+	.call-to-action { margin-bottom: 30px;}
+	.call-to-action h2,
+	.phone-no,
+	.choose-hostess h2 { font-size:36px; }
+	.features-content { padding:15px 30px;}
+	.features-content h2, .contact-form h2  { font-size: 28px;}
+	.home-content-inn { padding: 30px;}
+	.home-content { padding: 0 0  30px;}
+	#siteFooter { font-size: inherit;}
+	.schedule-content h2 { font-size: 24px;}
+	.service-content { padding: 15px;}
+	.service-content h2 { font-size: 22px;}
+	.service-rate { font-size: 14px;}
+	.service-rate span { font-size: 18px;}
+	.contact-details { padding: 20px; font-size: 16px;}
+	.contact-details address { padding: 10px;}
+	.nude-message-content { padding-bottom: 40px;}
+	.contact-form { padding: 30px;}
+	.jobs-form { padding: 30px 30px 30px 70px; }
+	.blog-post h2 { font-size: 35px; }
+	body.single-post .blog-post h1 { font-size: 40px; }
+}
+
+@media (max-width: 991px) {
+	h1 { font-size: 36px;}
+	h2 { font-size: 20px; }
+	h3 { font-size: 18px; }
+	h4 { font-size: 16px; }
+	h5 { font-size: 14px; }
+	h6 { font-size: 12px; }
+	.header div[class*="col-sm-9"] {  position: inherit;}
+	.menu-icon { display: block; }
+	.header-nav ul li .navicon { display: block;}
+	.header-nav ul li ul { position: relative;} 
+	.header-bar .header-phone { font-size: 24px;}
+	.header-nav { display: none; text-align: left; position: absolute; left: 0; z-index: 5555; background: #000; width: 100%; }
+	.header-nav ul li  { display: block;}
+	.header-nav ul li a { padding: 10px 20px; color:#FFFFFF;}
+	.schedule .schedules {  margin-bottom: 15px; }
+	.schedule .schedules h3 { float: none;}
+	.schedule .schedules ul { margin: 0; padding: 0;}
+	.schedule .schedules li { text-align: left;}
+	.contact-details { font-size: 16px;}
+	.special-requests-link a { font-size: 14px;}
+	.reservation-types { font-size: 15px;}
+	.schedule-box ul li span { font-size: 30px;}
+	.contact-details address { float: none; width: auto; padding: 0; }
+	.contact-details address p { margin-bottom: 10px; }
+	.contact-form .g-recaptcha,
+	.jobs-form .g-recaptcha { transform: scale(0.82); -webkit-transform: scale(0.82); -moz-transform: scale(0.82); -ms-transform: scale(0.82); margin-left: -25px;}
+	.blog-post { padding-bottom: 30px; margin-bottom: 30px; }
+	.blog-post h2 { font-size: 30px; }
+	body.single-post .blog-post h1 { font-size: 36px; }
+	
+	.header-nav ul li ul{
+		display:block !important;
+	}
+}
+
+@media (max-width: 767px) {
+	html,
+	body { overflow-x: hidden;}
+	h1 { font-size: 28px;}
+	.heading { font-size: 28px; padding: 30px 0;}
+	.menu-icon {  margin: -40px 0 15px; }
+	.logo img { max-width:220px; }
+	.header-bar { padding: 0; text-align: center;}
+	.header-nav {  text-align: left;  position: relative; z-index: inherit; }
+	.header-nav ul li a { padding: 10px 0;}
+
+	.logo { padding: 10px 0; text-align: center;}
+	.banner-caption { padding: 40px 0; position: relative; top: inherit;  left: auto; right: auto;   transform: inherit; -webkit-transform: inherit; -moz-transform: inherit; -ms-transform: inherit;}
+	.banner-caption .title { font-size: 4em;}
+	.banner-caption .button a { padding:10px 15px; }
+	.service-content { min-height: inherit;}
+	.hostesses-content { padding-bottom: 30px;}
+	.hostesses-content .hostess-info,
+	.hostess-info { padding-top: 40px; font-size: 40px;}
+	.call-to-action h2, .phone-no, .choose-hostess h2, .contact-form h2 { font-size: 28px;}
+	.call-to-action .container { padding: 20px}
+	.schedule .schedules h3 { float: none; padding: 10px 0; clear: both; overflow: hidden;}
+	.schedule .schedules ul { margin: 0; float: none; padding: 0;}
+	.schedule .schedules li { font-size: 14px; width: 33.33%; float: left; display: block;}
+	.features-image, .features-content { float: none; width: auto; display: block;}
+	.features-content { padding: 30px;}
+	.home-content .padding-left0,
+	.home-content .padding-right0 { padding: inherit;}
+	#siteFooter,
+	#siteFooter  .footer-address  { text-align: center; float: none;}
+	.footer-no { padding-left: 15px;}
+	.hostess-description { padding-top: 15px;}
+	.reviews-tab ul li { font-size: 16px; margin-right: 20px;}
+	.tour-tab li { padding: 15px;}
+	.contact-map, .contact-form { float: none; width: auto;}
+	.contact-form { padding: 15px;}
+	.nude-message-content { padding: 0;}
+	.nude-message-content div[class*="col"]  { display: block; margin-right: 0; }
+	.jobs { margin-bottom: 30px;}
+	.jobs-img, .jobs-form { float: none; width: auto;}
+	.jobs-form { padding:30px 15px;}
+	.jobs h2 { font-size: 20px;}
+	.jobs-groups-no { display: block; position: relative; margin: 0 0 15px 15px;}
+	.jobs-form .row {margin-left: -15px; margin-right: -15px;}
+	.jobs-form div[class*="col-"] { padding-left: 15px; padding-right: 15px; }
+	.schedule-content { padding-bottom: 0;}
+	.schedule-box { padding: 0;}
+	.schedule-box a { font-weight: 400;}
+	.schedule-box ul { float: none; width: auto;}
+	.schedule-box ul li { background: none !important; }
+	.schedule-box ul li:first-child { background: #481341 !important;  }
+	.contact-form .g-recaptcha, .jobs-form .g-recaptcha { transform:inherit; -webkit-transform: inherit; -moz-transform: inherit; -ms-transform: inherit; margin-left: 0; }
+	.add-review ul li.comment-form-author, .add-review ul li.comment-form-email,
+	.add-review ul li.comment-google-recaptcha, .add-review ul li.form-submit { float: none; width: 100%; padding-left: 0; padding-right: 0;}
+	body.single-post .blog-post h1 { font-size: 28px; }	
+	.blog-readmore, 
+	.share-button { text-align: left !important; }
+	.blog-readmore a { padding: 8px 20px; font-size: 14px;}
+	.share-button { margin: 30px 0 0; }
+	body.single .share-button { margin: 30px 0;}
+	.share-button ul li a { width: 36px; height: 36px; line-height: 36px; -webkit-border-radius: 36px; border-radius: 36px; } 	
+	.wp-pagenavi span, 
+	.wp-pagenavi a { width: 36px; height: 36px; line-height: 36px; font-size: 14px; }
+}
+@media (max-width: 479px) {
+	.menu-icon { margin-top: -35px;}
+	.header-bar .header-phone {display: block; margin-bottom: 10px;}
+	.choose-hostess-treatment .container div[class*="col"] { float: none; width: auto;}
+	.fileupload-title {  width: auto;}
+	#bookModal .form-group { display: block; text-align: left;}
+	.modal-popup span{ padding: 0; display: block; text-align: center;}
+	.modal-popup select { width: 100%; display: block;}
+	.schedule-tab ul li  { display: block; margin:0 0 20px;}
+	.blog-post .entry-content { font-size: 14px; line-height: 24px; }
+	.navigation.post-navigation .nav-links a { font-size: 14px; }
+	.navigation.post-navigation .nav-links .nav-previous a, 
+	.navigation.post-navigation .nav-links .nav-next a { padding: 15px 8px !important}
+}
+@media (max-width: 360px) {
+	.contact-form .g-recaptcha,
+	.jobs-form .g-recaptcha { transform: scale(0.82); -webkit-transform: scale(0.82); -moz-transform: scale(0.82); -ms-transform: scale(0.82); margin-left: -25px;}
+}

@@ -1,0 +1,190 @@
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+
+div.wpcf7 .wpcf7-recaptcha iframe {
+	margin-bottom: 0;
+}
+
+div.wpcf7 input[type="file"] {
+	cursor: pointer;
+}
+
+div.wpcf7 input[type="file"]:disabled {
+	cursor: default;
+}
+
+
+
+/* Pagenav style ---------- */
+.wp-pagenavi {
+	clear: both;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	border: 1px solid #BFBFBF;
+	padding: 3px 5px;
+	margin: 2px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #000;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+
+
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+.addmore:hover{
+cursor: pointer !important;
+}
+
+
+.modal-popup input[type="password"] {
+width: 100%;
+border: 1px solid #cfcfcf;
+padding: 10px;
+background: #fff;
+color: #000;
+height: 44px;
+max-height: 44px;
+font-style: italic;
+}
+
+#log_frmbtn{
+color: #fff;
+padding: 4px;
+text-align: center;
+background-color: #66185d;
+text-transform: uppercase;
+border-radius: 0;
+outline: 0;
+font-size: 15px;
+}
+#log_frmbtn input[type="submit"]{
+padding: 10px 25px;
+display: block;
+border: #fff solid 1px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+letter-spacing: 1px;
+}
+#log_frmbtn:hover{
+background: #222;
+}
+.error{ color: red; font-size: 14px; }
+.wpcf7-validation-errors{ display: none!important;}
+div.wpcf7 img.ajax-loader{ width: auto;}
+
+#preloader{
+display: inline-block;
+top: 7px;
+position: relative;
+margin-left: 10px;
+height: 35px;
+width: 35px;
+opacity: 1;
+}
+span.success{color: green;font-weight: 600;}
+#commentform .error{border-color: #f00;}
+.single-our_hostesses .ui-timepicker-container.ui-timepicker-standard{ z-index: 9999!important; height: auto !important; max-height: 200px; overflow-y: auto;}
+.single-our_hostesses .ui-timepicker,
+.single-our_hostesses .ui-timepicker-viewport { height: auto !important; }
+.choose-hostess-treatment a.hostess-info-link { font-weight: normal;}
+#bookModal .close{ opacity: 0.5;}
+.wpcf7-response-output{ color: #000;}
+
+
+img.wp-smiley,
+    img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
