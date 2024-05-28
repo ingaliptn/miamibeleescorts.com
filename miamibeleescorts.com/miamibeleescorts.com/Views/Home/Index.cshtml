@@ -24,92 +24,30 @@
                 </div>
             </div>
             <div class="row hostess-schedule-box">
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="cathrine.php"><img src="~/girls/asian/cathrine/1.jpg" alt="Cathrine" title="Cathrine"></a>
-                        <a href="cathrine.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Cathrine</p>
-                            </div>
-                        </a>
+                @* 8 *@
+                @foreach (var escort in Model)
+                {
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <div class="hostess-box" style="min-height: 505px;">
+                            <a href="@Html.Raw(escort.rate2 + ".php")"><img src="~/@Html.Raw(escort.file_name1)" alt="@escort.escortname" title="@escort.escortname"></a>
+                            <a href="@Html.Raw(escort.rate2 + ".php")" class="hostess-info-link">
+                                <div class="hostess-info">
+                                    <p>@escort.escortname</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="albina.php"><img src="~/girls/busty/albina/1.jpg" alt="Albina" title="Albina"></a>
-                        <a href="albina.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Albina</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="astrid.php"><img src="~/girls/cheap/astrid/1.jpg" alt="Astrid" title="Astrid"></a>
-                        <a href="astrid.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Astrid</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="brown.php"><img src="~/girls/ebony/brown/1.jpg" alt="Brown" title="Brown"></a>
-                        <a href="brown.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Brown</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="ava.php"><img src="~/girls/latina/ava/1.jpg" alt="Ava" title="Ava"></a>
-                        <a href="ava.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Ava</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="cecilia.php"><img src="~/girls/russian/cecilia/1.jpg" alt="Cecilia" title="Cecilia"></a>
-                        <a href="cecilia.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Cecilia</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="andrea.php"><img src="~/girls/vip/andrea/1.jpg" alt="Andrea" title="Andrea"></a>
-                        <a href="andrea.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Andrea</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="hostess-box" style="min-height: 505px;">
-                        <a href="elaine.php"><img src="~/girls/vip/elaine/1.jpg" alt="Elaine" title="Elaine"></a>
-                        <a href="elaine.php" class="hostess-info-link">
-                            <div class="hostess-info">
-                                <p>Elaine</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+
+                }
             </div>
+
+
             <div class="row text-center">
                 <div class="button">
                     <a href="escorts.php" class="btn">ALL GIRLS</a>
                 </div>
             </div>
+
             <div class="text_container">
                 <h2>What makes our escorts so special and sexy at the same time</h2>
                 <p class="text-justify">Some men might think that instead of hiring an escort it will be better to just chase a girl and date them. But if you think that it's the best idea, then you are totally wrong. Let us tell you why its wrong and why you must only hire escorts instead of dating a girl. Below we have listed our some reasons which will definitely persuade you to avoid general dating:</p>

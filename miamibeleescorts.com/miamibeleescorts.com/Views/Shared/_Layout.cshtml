@@ -3,14 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php echo $myTitle; ?></title>
-    <meta name="description" content="<?php echo $myDesc; ?>">
-    <meta name="robots" content="<?php echo $robots; ?>" />
-    <link rel="canonical" href="<?php echo $canonical; ?>" />
+
+    <title>@Html.Raw(ViewBag.Title.Replace("&mdash;", "—"))</title>
+    <meta name="description" content="@Html.Raw(ViewBag.Desc.Replace("&mdash;", "—"))">
+    <meta name="robots" content="@Html.Raw(ViewBag.Robots.Replace("&mdash;", "—"))" />
+    <link rel="canonical" href="@Html.Raw(ViewBag.Canonical.Replace("&mdash;", "—"))" />
+
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="<?php echo $myTitle; ?>" />
-    <meta property="og:description" content="<?php echo $myDesc; ?>" />
-    <meta property="og:url" content="<?php echo $canonical; ?>" />
+    <meta property="og:title" content="@Html.Raw(ViewBag.Title.Replace("&mdash;", "—"))" />
+    <meta property="og:description" content="@Html.Raw(ViewBag.Desc.Replace("&mdash;", "—"))" />
+    <meta property="og:url" content="@Html.Raw(ViewBag.Canonical.Replace("&mdash;", "—"))" />
+
+
     <meta property="og:phone_number" content="+17863325934" />
     <meta property="og:locality" content="Miami" />
     <meta property="og:country-name" content="USA" />
@@ -36,7 +40,7 @@
     <script type="text/javascript" src="~/js/jquery-migrate.min.js"></script>
     <script type="text/javascript" src="~/js/theme-ajax.js"></script>
 </head>
-<body class="<?php echo $bodyclass; ?>">
+<body class="page innerbg">
     <header id="header" class="header">
         <div class="container">
             <div class="row">

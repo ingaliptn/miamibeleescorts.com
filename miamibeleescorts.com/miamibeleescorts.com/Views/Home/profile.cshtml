@@ -1,0 +1,66 @@
+﻿
+<main class="">
+    <section class="">
+        <div class="container">
+            <div id="middle">
+                <div class="container">
+                    <div class="hostess-description">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="hostess-slider">
+                                    <ul class="bxSlider">
+                                        <partial name="_PhotosPartial" />
+                                    </ul>
+                                    <div id="bx-pager">
+                                        <ul>
+                                            <partial name="_PhotosPartial2" />
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-5 col-md-offset-1">
+                                <h1>@Model.escortname</h1>
+                                <div class="hostess-table">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>Age</td>
+                                                <td align="right"><strong>@Model.age </strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Height</td>
+                                                <td align="right"><strong>@Model.height </strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Measurements</td>
+                                                <td align="right"><strong>@Model.bra</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hair Color</td>
+                                                <td align="right"><strong>@Model.hair</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eye Color</td>
+                                                <td align="right"><strong>@Model.eye</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nationality</td>
+                                                <td align="right"><strong>@Model.nationality</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="hostess-ceciliailability">
+                                    <h2>About Me</h2>
+                                    <p>@Model.description</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="~/js/jquery.timepicker.min.js.download"></script>
+            <link rel="stylesheet" href="~/css/jquery.timepicker.min.css">
+        </div>
+    </section>
+</main>
