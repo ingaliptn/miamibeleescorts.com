@@ -498,8 +498,8 @@ namespace miamibeleescorts.com.Controllers
             //$myDesc="$girlname is available and waiting for you at Miami Bele Escorts. Do not look for more and book her right now!";
 
             ViewBag.Desc = $"{model.escortname} is available and waiting for you at Miami Bele Escorts. Do not look for more and book her right now!";
-            ViewBag.Title = $"{model.rate2} Escort Girl {model.escortname} At Miami Bele Escorts";
-            ViewBag.Canonical = $"http://www.miamibeleescorts.com/{model.escortname}.php";
+            ViewBag.Title = $"{model.nationality} Escort Girl {model.escortname} At Miami Bele Escorts";
+            ViewBag.Canonical = $"http://www.miamibeleescorts.com/{model.rate2}.php";
             ViewBag.Robots = "index, follow";
 
             return View(model);
